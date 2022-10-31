@@ -1,8 +1,8 @@
 """MyLinkedList module."""
 
-from LinkedList.Node import Node
+from linked_list.Node import Node
 
-class MyLinkedList:
+class LinkedList:
     def __init__(self):
         """
         Constructs all the necessary attributes for the person object.
