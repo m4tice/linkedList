@@ -1,6 +1,7 @@
 """MyLinkedList module."""
 
 
+from re import S
 from linked_list.node import Node
 
 class LinkedList:
@@ -23,3 +24,14 @@ class LinkedList:
         self.head = self.node
         self.tail = self.node
         self.length = 1
+
+    def prepend(self):
+        """
+        Add one node at the front of the list
+        @return: nothing
+        """
+
+        tempNode= Node()
+        self.head.next = tempNode
+        self.head = tempNode
+        self.length += 1
