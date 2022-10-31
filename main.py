@@ -1,7 +1,7 @@
 """main module."""
 
-from LinkedList.LinkedList import LinkedList
-from LinkedList.Node import Node
+# from LinkedList.LinkedList import LinkedList
+# from LinkedList.Node import Node
 
 
 def main():
