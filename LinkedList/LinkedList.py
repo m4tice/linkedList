@@ -1,7 +1,6 @@
 """MyLinkedList module."""
 
-from platform import node
-from Node import Node
+from LinkedList.Node import Node
 
 class MyLinkedList:
     def __init__(self):
