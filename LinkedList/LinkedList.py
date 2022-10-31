@@ -1,4 +1,6 @@
 from platform import node
+"""LinkedList module."""
+
 from Node import Node
 
 class LinkedList:
