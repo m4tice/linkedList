@@ -6,6 +6,6 @@ from Node import Node
 class LinkedList:
     def __init__(self):
         self.node = Node()
-        self.head = node
-        self.tail = node
+        self.head = self.node
+        self.tail = self.node
         self.length = 1
