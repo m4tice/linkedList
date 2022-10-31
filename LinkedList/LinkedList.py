@@ -1,9 +1,9 @@
 from platform import node
-"""LinkedList module."""
+"""MyLinkedList module."""
 
 from Node import Node
 
-class LinkedList:
+class MyLinkedList:
     def __init__(self):
         self.node = Node()
         self.head = self.node
