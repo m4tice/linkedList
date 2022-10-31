@@ -5,6 +5,10 @@
 
 
 def main():
+    """
+    Testing utils functions implementation
+    :return: nothing.
+    """
     # node = Node()
     # myLL = LinkedList()
 
